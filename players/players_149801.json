@@ -1,0 +1,27 @@
+[
+    {
+        "id": 149814,
+        "Roles": "Non-starter \u2022 Administrator",
+        "Sex": "Male",
+        "Full_name": "William Berge \"Bill\"\u2022Phillips",
+        "Used_name": "Bill\u2022Phillips",
+        "Born": "15 July 1913 in Dulwich Hill, New South Wales (AUS)",
+        "Died": "20 October 2003 in Sydney, New South Wales (AUS)",
+        "NOC": "Australia",
+        "games": [
+            {
+                "game": "1948 Summer Olympics",
+                "discipline": "Water Polo (Aquatics)",
+                "noc": "AUS",
+                "Events": [
+                    {
+                        "event": "Water Polo, Men(Olympic)",
+                        "team": "Australia",
+                        "position": "DNS",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    }
+]

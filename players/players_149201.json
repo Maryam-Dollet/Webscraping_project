@@ -1,0 +1,663 @@
+[
+    {
+        "id": 149201,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Female",
+        "Full_name": "Nadine\u2022Hofstetter",
+        "Used_name": "Nadine\u2022Hofstetter",
+        "Born": "21 October 1994 in Romoos, Luzern (SUI)",
+        "Measurements": "164 cm / 68 kg",
+        "Affiliations": "SC Reinach, Reinach (SUI)",
+        "NOC": "Switzerland",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Ice Hockey (Ice Hockey)",
+                "noc": "SUI",
+                "Events": [
+                    {
+                        "event": "Ice Hockey, Women(Olympic)",
+                        "team": "Switzerland",
+                        "position": "4",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149202,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149202.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Zhou\u2022Xiaoyang",
+        "Used_name": "Zhou\u2022Xiaoyang",
+        "Name_order": "Oriental",
+        "Original_name": "\u5468\u2022\u6f47\u6d0b ",
+        "Born": "24 September 2002",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Ski Jumping (Skiing)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Large Hill, Team, Men(Olympic)",
+                        "team": "People's Republic of China",
+                        "position": "11",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149203,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149203.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Zhen\u2022Weijie",
+        "Used_name": "Zhen\u2022Weijie",
+        "Name_order": "Oriental",
+        "Original_name": "\u7504\u2022\u4f1f\u6770",
+        "Born": "16 October 2003",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Ski Jumping (Skiing)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Large Hill, Team, Men(Olympic)",
+                        "team": "People's Republic of China",
+                        "position": "11",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149204,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149204.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Lyu\u2022Yixin",
+        "Used_name": "Lyu\u2022Yixin",
+        "Name_order": "Oriental",
+        "Original_name": "\u5415\u2022\u4f9d\u65b0",
+        "Born": "15 May 2000",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Ski Jumping (Skiing)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Large Hill, Team, Men(Olympic)",
+                        "team": "People's Republic of China",
+                        "position": "11",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149205,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149205.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Zhao\u2022Zihe",
+        "Used_name": "Zhao\u2022Zihe",
+        "Name_order": "Oriental",
+        "Original_name": "\u8d75\u2022\u5b50\u8d3a",
+        "Born": "29 July 2000",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Nordic Combined (Skiing)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Team, Men(Olympic)",
+                        "team": "People's Republic of China",
+                        "position": "10",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149206,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Fan\u2022Haibin",
+        "Used_name": "Fan\u2022Haibin",
+        "Name_order": "Oriental",
+        "Original_name": "\u8303\u2022\u6d77\u658c",
+        "Born": "6 January 2005",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Nordic Combined (Skiing)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Team, Men(Olympic)",
+                        "team": "People's Republic of China",
+                        "position": "10",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149207,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Gao\u2022Yuhao",
+        "Used_name": "Gao\u2022Yuhao",
+        "Name_order": "Oriental",
+        "Original_name": "\u90ed\u2022\u7389\u597d",
+        "Born": "18 June 2000",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Nordic Combined (Skiing)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Team, Men(Olympic)",
+                        "team": "People's Republic of China",
+                        "position": "10",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149208,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Vladislav Sergeyevich\u2022Zharovtsev",
+        "Used_name": "Vladislav\u2022Zharovtsev",
+        "Original_name": "\u0412\u043b\u0430\u0434\u0438\u0441\u043b\u0430\u0432 \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u0438\u0447\u2022\u0416\u0430\u0440\u043e\u0432\u0446\u0435\u0432",
+        "Born": "1 May 1996 in Minusinsk, Krasnoyarsk Kray (RUS)",
+        "NOC": "ROC",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Bobsleigh (Bobsleigh)",
+                "noc": "ROC",
+                "Events": [
+                    {
+                        "event": "Two, Men(Olympic)",
+                        "team": "Maksim Andrianov",
+                        "position": "25",
+                        "medal": ""
+                    },
+                    {
+                        "event": "Four, Open(Olympic)",
+                        "team": "ROC 2",
+                        "position": "8",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149209,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149209.jpg",
+        "Roles": "Non-starter",
+        "Sex": "Male",
+        "Full_name": "Jiang\u2022Dongxu",
+        "Used_name": "Jiang\u2022Dongxu",
+        "Name_order": "Oriental",
+        "Original_name": "\u59dc\u2022\u4e1c\u65ed",
+        "Born": "3 March 1993 in Harbin, Heilongjiang (CHN)",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Curling",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Curling, Men(Olympic)",
+                        "team": "People's Republic of China",
+                        "position": "DNS",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149210,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149210.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Female",
+        "Full_name": "Feng\u2022He",
+        "Used_name": "Feng\u2022He",
+        "Name_order": "Oriental",
+        "Original_name": "\u51af\u2022\u8d3a",
+        "Born": "31 March 2004",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Snowboarding (Skiing)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Cross, Women(Olympic)",
+                        "team": "",
+                        "position": "=25",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149211,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149211.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Gao\u2022Hongbo",
+        "Used_name": "Gao\u2022Hongbo",
+        "Name_order": "Oriental",
+        "Original_name": "\u9ad8\u2022\u5b8f\u535a",
+        "Born": "20 October 2000 in ?, Heilongjiang (CHN)",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Snowboarding (Skiing)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Halfpipe, Men(Olympic)",
+                        "team": "",
+                        "position": "25",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149212,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Radek\u2022Houser",
+        "Used_name": "Radek\u2022Houser",
+        "Born": "2 July 1996 in T\u0159eb\u00ed\u010d, Vyso\u010dina (CZE)",
+        "Affiliations": "TC Prad\u011bd, Mal\u00e1 Mor\u00e1vka (CZE)",
+        "NOC": "Czechia",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Snowboarding (Skiing)",
+                "noc": "CZE",
+                "Events": [
+                    {
+                        "event": "Cross, Men(Olympic)",
+                        "team": "",
+                        "position": "31",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149213,
+        "Roles": "Non-starter",
+        "Sex": "Male",
+        "Full_name": "Dmitry\u2022Karlagachev",
+        "Used_name": "Dmitry\u2022Karlagachev",
+        "Born": "13 October 1998",
+        "NOC": "ROC",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Snowboarding (Skiing)",
+                "noc": "ROC",
+                "Events": [
+                    {
+                        "event": "Parallel Giant Slalom, Men(Olympic)",
+                        "team": "",
+                        "position": "DNS",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149214,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Female",
+        "Full_name": "Yekaterina Aleksandrovna\u2022Kosova",
+        "Used_name": "Yekaterina\u2022Kosova",
+        "Original_name": "\u0415\u043a\u0430\u0442\u0435\u0440\u0438\u043d\u0430 \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430\u2022\u041a\u043e\u0441\u043e\u0432\u0430",
+        "Born": "25 April 1996 in Moskva (Moscow), Moskva (RUS)",
+        "NOC": "ROC",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Snowboarding (Skiing)",
+                "noc": "ROC",
+                "Events": [
+                    {
+                        "event": "Big Air, Women(Olympic)",
+                        "team": "",
+                        "position": "26",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149215,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Shakeel\u2022John",
+        "Used_name": "Shakeel\u2022John",
+        "Born": "30 July 2001 in Mount Hope, Tunapuna-Piarco (TTO)",
+        "NOC": "Trinidad and Tobago",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Bobsleigh (Bobsleigh)",
+                "noc": "TTO",
+                "Events": [
+                    {
+                        "event": "Two, Men(Olympic)",
+                        "team": "Trinidad and Tobago 1",
+                        "position": "28",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149216,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149216.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Ye\u2022Jielong",
+        "Used_name": "Ye\u2022Jielong",
+        "Name_order": "Oriental",
+        "Original_name": "\u53f6\u2022\u6770\u9f99",
+        "Born": "2 March 2000",
+        "NOC": "People's Republic of China",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Bobsleigh (Bobsleigh)",
+                "noc": "CHN",
+                "Events": [
+                    {
+                        "event": "Four, Open(Olympic)",
+                        "team": "People's Republic of China 2",
+                        "position": "17",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149217,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149217.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Sin\u2022Ye-Chan",
+        "Used_name": "Sin\u2022Ye-Chan",
+        "Name_order": "Oriental",
+        "Original_name": "\uc2e0\u2022\uc608\ucc2c",
+        "Other_names": "Shin Ye-Chan",
+        "Born": "13 June 1995",
+        "NOC": "Republic of Korea",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Bobsleigh (Bobsleigh)",
+                "noc": "KOR",
+                "Events": [
+                    {
+                        "event": "Four, Open(Olympic)",
+                        "team": "Republic of Korea 2",
+                        "position": "25",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149218,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Matthew\u2022Wepke",
+        "Used_name": "Matthew\u2022Wepke",
+        "Born": "5 December 1989",
+        "NOC": "Jamaica",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Bobsleigh (Bobsleigh)",
+                "noc": "JAM",
+                "Events": [
+                    {
+                        "event": "Four, Open(Olympic)",
+                        "team": "Jamaica 1",
+                        "position": "28",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149219,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Carlos\u2022Garc\u00eda-Ord\u00f3\u00f1ez Montalvo",
+        "Used_name": "Carlos\u2022Garc\u00eda-Ord\u00f3\u00f1ez",
+        "Born": "24 April 1927 in La Habana (Havana), Ciudad de La Habana (CUB)",
+        "Died": "24 November 2019 in Miami, Florida (USA)",
+        "NOC": "Cuba",
+        "games": [
+            {
+                "game": "1952 Summer Olympics",
+                "discipline": "Basketball (Basketball)",
+                "noc": "CUB",
+                "Events": [
+                    {
+                        "event": "Basketball, Men(Olympic)",
+                        "team": "Cuba",
+                        "position": "=13",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149220,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Female",
+        "Full_name": "Landysh Ilsurovna\u2022Falyakhova",
+        "Used_name": "Landysh\u2022Falyakhova",
+        "Original_name": "\u041b\u0430\u043d\u0434\u044b\u0448 \u0418\u043b\u044c\u0441\u0443\u0440\u043e\u0432\u043d\u0430\u2022\u0424\u0430\u043b\u044f\u0445\u043e\u0432\u0430",
+        "Born": "31 August 1998 in Dva Polya Artash, Respublika Tatarstan (RUS)",
+        "Affiliations": "SKIF Nizhny Novgorod, Nizhny Novgorod (RUS)",
+        "NOC": "ROC",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Ice Hockey (Ice Hockey)",
+                "noc": "ROC",
+                "Events": [
+                    {
+                        "event": "Ice Hockey, Women(Olympic)",
+                        "team": "ROC",
+                        "position": "5",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149221,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "George Fletcher\u2022Wright",
+        "Used_name": "George\u2022Wright",
+        "Born": "21 July 1890 in Toronto, Ontario (CAN)",
+        "Died": "28 January 1973 in Los Angeles, California (USA)",
+        "Measurements": "183 cm",
+        "Affiliations": "Argonaut Rowing Club, Toronto (CAN)",
+        "NOC": "Canada",
+        "games": [
+            {
+                "game": "1908 Summer Olympics",
+                "discipline": "Rowing",
+                "noc": "CAN",
+                "Events": [
+                    {
+                        "event": "Eights, Men(Olympic)",
+                        "team": "Toronto Argonauts",
+                        "position": "=3",
+                        "medal": "Bronze"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149222,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Female",
+        "Full_name": "Polina\u2022Luchnikova",
+        "Used_name": "Polina\u2022Luchnikova",
+        "Born": "30 January 2002 in Serov, Sverdlovsk (RUS)",
+        "Measurements": "167 cm / 61 kg",
+        "Affiliations": "Agidel, Ufa (RUS)",
+        "NOC": "ROC",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Ice Hockey (Ice Hockey)",
+                "noc": "ROC",
+                "Events": [
+                    {
+                        "event": "Ice Hockey, Women(Olympic)",
+                        "team": "ROC",
+                        "position": "5",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149223,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Female",
+        "Full_name": "Valeriya Sergeyevna\u2022Merkusheva",
+        "Used_name": "Valeriya\u2022Merkusheva",
+        "Original_name": "\u0412\u0430\u043b\u0435\u0440\u0438\u044f \u0421\u0435\u0440\u0433\u0435\u0435\u0432\u043d\u0430\u2022\u041c\u0435\u0440\u043a\u0443\u0448\u0435\u0432\u0430",
+        "Born": "20 September 1999 in Moskva (Moscow), Moskva (RUS)",
+        "Measurements": "168 cm / 65 kg",
+        "Affiliations": "SKIF Nizhny Novgorod, Nizhny Novgorod (RUS)",
+        "NOC": "ROC",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Ice Hockey (Ice Hockey)",
+                "noc": "ROC",
+                "Events": [
+                    {
+                        "event": "Ice Hockey, Women(Olympic)",
+                        "team": "ROC",
+                        "position": "5",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149224,
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Female",
+        "Full_name": "Yuliya\u2022Smirnova",
+        "Used_name": "Yuliya\u2022Smirnova",
+        "Original_name": "\u042e\u043b\u0438\u044f\u2022\u0421\u043c\u0438\u0440\u043d\u043e\u0432\u0430",
+        "Born": "8 May 1998 in Kotlas, Arkhangelsk (RUS)",
+        "Measurements": "163 cm / 55 kg",
+        "Affiliations": "Agidel, Ufa (RUS)",
+        "NOC": "ROC",
+        "games": [
+            {
+                "game": "2022 Winter Olympics",
+                "discipline": "Ice Hockey (Ice Hockey)",
+                "noc": "ROC",
+                "Events": [
+                    {
+                        "event": "Ice Hockey, Women(Olympic)",
+                        "team": "ROC",
+                        "position": "5",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 149225,
+        "photo_link": "https://d2a3o6pzho379u.cloudfront.net/149225.jpg",
+        "Roles": "Competed in Olympic Games",
+        "Sex": "Male",
+        "Full_name": "Andr\u00e9\u2022Foussard",
+        "Used_name": "Andr\u00e9\u2022Foussard",
+        "Born": "19 May 1899 in Niort, Deux-S\u00e8vres (FRA)",
+        "Died": "18 March 1986 in Niort, Deux-S\u00e8vres (FRA)",
+        "Measurements": "166 cm",
+        "Affiliations": "Beauvoisine FC, Rouen (FRA)",
+        "NOC": "France",
+        "games": [
+            {
+                "game": "1924 Summer Olympics",
+                "discipline": "Athletics",
+                "noc": "FRA",
+                "Events": [
+                    {
+                        "event": "400 metres Hurdles, Men(Olympic)",
+                        "team": "",
+                        "position": "5 h5 r1/3",
+                        "medal": ""
+                    }
+                ]
+            }
+        ]
+    }
+]
