@@ -1,0 +1,24 @@
+City,city_name,latitude,longitude,country,state
+Tokyo,Tokyo,35.6828387,139.7594549,JP,
+Rio de Janeiro,Rio de Janeiro,-22.9110137,-43.2093727,BR,Rio de Janeiro
+Londres,London,51.5073219,-0.1276474,GB,England
+Pékin,Beijing,39.906217,116.3912757,CN,Beijing
+Athènes,Athens,37.9839412,23.7283052,GR,Attica
+Sydney,Sydney,-33.8698439,151.2082848,AU,New South Wales
+Atlanta,Atlanta,33.7489924,-84.3902644,US,Georgia
+Barcelone,Barcelona,41.3828939,2.1774322,ES,Catalonia
+Séoul,Seoul,37.5666791,126.9782914,KR,
+Los Angeles,Los Angeles,34.0536909,-118.242766,US,California
+Moscou,Moscow,55.7504461,37.6174943,RU,Moscow
+Montréal,Montreal,45.5031824,-73.5698065,CA,Quebec
+Munich,Munich,48.1371079,11.5753822,DE,Bavaria
+Mexico,Mexico City,19.4326296,-99.1331785,MX,
+Rome,Rome,41.8933203,12.4829321,IT,Lazio
+Melbourne,Melbourne,-37.8142176,144.9631608,AU,Victoria
+Helsinki,Helsinki,60.1674881,24.9427473,FI,
+Berlin,Berlin,52.5170365,13.3888599,DE,
+Amsterdam,Amsterdam,52.3727598,4.8936041,NL,North Holland
+Paris,Paris,48.8588897,2.3200410217200766,FR,Ile-de-France
+Anvers,Antwerp,51.2211097,4.3997081,BE,Antwerp
+Stockholm,Stockholm,59.3251172,18.0710935,SE,
+Saint Louis,Saint Louis,38.6319657,-90.2428756,US,Missouri
