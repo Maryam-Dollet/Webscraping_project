@@ -17,5 +17,6 @@ def load_positions():
     df_results = load_results()
 
     df_merged = df_results.merge(df_positions, how="left", on="Lieu")
-    df_merged = df_merged.drop_duplicates(subset=["Lieu","Annee"])
-    return df_positions
+    df_merged["description"] = df_merged["Lieu"].astype(str) + " " + df_merged["Annee"].astype(str)
+    df_merged = df_merged.drop_duplicates(subset=["Lieu","Annee"]).sort_values("Annee", ignore_index=True)
+    return df_merged[["Lieu", "Annee", "longitude", "latitude", "description"]]
