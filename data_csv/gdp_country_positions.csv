@@ -1,0 +1,193 @@
+;Lieu;city_name;latitude;longitude;country;state
+0;Afghanistan;Afghanistan;25.2333938;55.174389025091465;AE;Dubai
+1;Albania;Albania;5.7587654;-73.9151617;CO;Santander
+2;Algeria;Algiers;36.7753606;3.0601882;DZ;Algiers
+3;Andorra;Andorra la Vella;42.5069391;1.5212467;AD;
+4;Angola;Angola;41.634874;-84.99928;US;Indiana
+5;Argentina;Argentina;27.0854542;-109.1412408;MX;Sonora
+6;Armenia;Armenia;4.536307;-75.6723751;CO;Quindío
+7;Aruba;Aruba;12.51756625;-69.98186415210564;NL;
+8;Australia;Australia;-31.95260295;152.55512735272188;AU;New South Wales
+9;Austria;Austria;25.22539605;55.16431379427327;AE;Dubai
+10;Azerbaijan;Azerbaijan;25.23108035;55.17027266614927;AE;Dubai
+11;Bahamas, The;Lucayan Archipelago;26.661393099999998;-78.26835346979033;BS;
+12;Bahrain;Bahrain Island;26.0280409;50.55316820508136;BH;Southern Governorate
+13;Bangladesh;Bangladesh;-0.2864982;36.0514231;KE;Nakuru
+14;Barbados;Barbados;13.189946299999999;-59.559215109754064;BB;
+15;Belarus;Беларусь;54.3836054;30.4054004;BY;Vitsebsk Region
+16;Belgium;Belgium;40.0620915;-87.6392353;US;Illinois
+17;Belize;Belize City;17.5000543;-88.2003115;BZ;Belize District
+18;Benin;Benin City;6.3330586;5.6221058;NG;Edo State
+19;Bermuda;Bermuda;32.3018217;-64.7603583;BM;
+20;Bhutan;bhutan;33.0204804;75.6458366;IN;Jammu and Kashmir
+21;Bolivia;Bolivia;34.0676715;-78.1483283;US;North Carolina
+22;Botswana;Botswana;25.21468695;55.18137698902848;AE;Dubai
+23;Brazil;Brazil;39.523652;-87.1250154;US;Indiana
+24;Bulgaria;Bulgaria;44.1141209;12.32615;IT;Emilia-Romagna
+25;Burkina Faso;Family Savadogo;13.4329296;-1.9956277265699778;BF;
+26;Cabo Verde;Cabo Verde;-21.4743338;-46.3964995;BR;Minas Gerais
+27;Cambodia;Cambodia Town;42.6379684;-71.3213616;US;Massachusetts
+28;Canada;Cañada;38.6752399;-0.8099623;ES;Valencian Community
+29;Cayman Islands;Cayman Islands;19.3298691;-81.17122907994889;KY;
+30;Central African Republic;Central African Republic;25.218395899999997;55.17523857621538;AE;Dubai
+31;Chad;chad;32.7600402;76.0706663;IN;Himachal Pradesh
+32;Channel Islands;Channel Islands;33.96579515;-120.09189711105296;US;California
+33;Chile;Chile;7.308692;-61.8478915;VE;Bolivar State
+34;China;Guangzhou City;23.1301964;113.2592945;CN;Guangdong Province
+35;Colombia;Colômbia;-20.1774291;-48.6872822;BR;São Paulo
+36;Comoros;Cômoros;40.1132313;-8.2614827;PT;
+37;Congo, Dem. Rep.;Congo;-4.3983688999999995;15.403578174981702;CD;Kinshasa
+38;Congo, Rep.;Congo;-4.3983688999999995;15.403578174981702;CD;Kinshasa
+39;Costa Rica;San José;9.9325427;-84.0795782;CR;
+40;Cote d'Ivoire;Côte D'Ivoire;8.97205;17.6395833;TD;Mandoul
+41;Cuba;Juba City;4.8459246;31.5959173;SS;Central Equatoria
+42;Curacao;Curaçao;12.21339425;-69.0408499890865;NL;
+43;Cyprus;Cyprus;35.129393050000004;33.22978295894309;CY;South Cyprus
+44;Denmark;Town of Denmark;43.899871;-75.582504;US;New York
+45;Djibouti;Djibouti;11.5936903;43.1472724;DJ;
+46;Dominica;Dominica;15.4240429;-61.34185329351388;DM;Saint Joseph Parish
+47;Ecuador;Ecuador;-3.48444;-80.2257543;EC;El Oro
+48;Egypt, Arab Rep.;Egypt;-27.676714;152.0984108763645;AU;Queensland
+49;El Salvador;El Salvador;-26.2462114;-69.6259658;CL;Atacama Region
+50;Eritrea;Barentu;15.1056714;37.5888782;ER;Gash-Barka
+51;Estonia;Эстония;56.3984817;96.4987629;RU;Krasnoyarsk Krai
+52;Eswatini;Eswatini;25.2164748;55.18185799560048;AE;Dubai
+53;Ethiopia;Bahir Dar City;11.591367600000002;37.39000433472914;ET;Amhara Region
+54;Faroe Islands;Faroe Islands;62.19850045;-6.817412433412175;FO;Eysturoy region
+55;Fiji;Fiji Island;44.55220515;-78.16900113841923;CA;Ontario
+56;Finland;Finland;40.3843304;-75.4203885;US;Pennsylvania
+57;France;France;46.2337295;5.3538775;FR;Auvergne-Rhône-Alpes
+58;Gabon;Gabon;14.1277147;122.912073;PH;Camarines Norte
+59;Gambia, The;Gambia;7.5290563;-11.9729409;SL;Bonthe District
+60;Georgia;Georgia;44.72422295;-73.14704151731551;US;Vermont
+61;Germany;Germany;31.4399019;-95.350778;US;Texas
+62;Ghana;Ghana;21.571887699999998;77.48657152558205;IN;Maharashtra
+63;Gibraltar;Gibraltar;36.140807;-5.3541295;GI;
+64;Greece;Town of Greece;43.2097838;-77.6930602;US;New York
+65;Greenland;Greenland;71.81717990000001;-40.42628783678519;GL;
+66;Grenada;Granada;37.1734995;-3.5995337;ES;Andalusia
+67;Guam;Guam;13.450125700000001;144.75755102972062;US;Guam
+68;Guatemala;Guatemala City;14.6222328;-90.5185188;GT;Guatemala Department
+69;Guinea;Guinea;5.15;-1.75;GH;Western Region
+70;Guyana;City of Georgetown;6.8137426;-58.1624465;GY;Demerara-Mahaica
+71;Haiti;Haiti;21.7670269;-78.0947805;CU;Camagüey
+72;Honduras;Honduras;18.1513986;-66.2080216;US;Puerto Rico
+73;Hungary;Hungary;41.9767629;-72.7789842;US;Connecticut
+74;Iceland;Iceland;39.3733802;-120.029143;US;California
+75;India;India;2.183333;33.683333;UG;Kapelebyong
+76;Indonesia;Pulau Bali;-8.456018100000001;115.27038551191185;ID;Bali
+77;Iran, Islamic Rep.;Tirur;27.3396747;56.9567463;IR;Hormozgan Province
+78;Iraq;Masif;36.686291;41.994791;IQ;Nineveh Governorate
+79;Ireland;Ireland;53.4152268;-7.96655398901418;IE;
+80;Isle of Man;Isle of Man;54.23592075;-4.514766902315387;IM;
+81;Israel;Nein;32.6307267;35.3488686;IL;North District
+82;Italy;Italy;32.1840381;-96.8847194;US;Texas
+83;Jamaica;Jamaica;40.7029134;-73.8006429;US;New York
+84;Japan;Japan;40.9921996;-75.9078749;US;Pennsylvania
+85;Jordan;Jordan;44.6663146;-93.6261918;US;Minnesota
+86;Kazakhstan;Aral;46.797985;61.661221;KZ;Kyzylorda Region
+87;Kenya;Namanga;-2.5461733;36.7915635;KE;Kajiado County
+88;Korea, Dem. People's Rep.;Korea;50.4837993;23.7590924;PL;Lublin Voivodeship
+89;Korea, Rep.;Korea;50.4837993;23.7590924;PL;Lublin Voivodeship
+90;Kosovo;Kosovo;42.6202038;21.1561827;XK;
+91;Kuwait;Kuwait City;29.3796532;47.9734174;KW;Al Asimah
+92;Lebanon;Lebanon;40.3429683;-76.4233816;US;Pennsylvania
+93;Lesotho;Lesotho;25.21481175;55.183041764491264;AE;Dubai
+94;Liberia;Liberia;10.6333401;-85.4362722;CR;
+95;Libya;Libya;25.22041215;55.17041701462804;AE;Dubai
+96;Luxembourg;Luxembourg;49.6112768;6.129799;LU;
+97;Madagascar;Madagascar;-18.779148749999997;46.71217161656727;MG;Province d’Antananarivo
+98;Malawi;Malawi;-15.300392;34.701808;MW;Neno
+99;Malaysia;Malaysia;25.23310645;55.1833741910576;AE;Dubai
+100;Maldives;Reethi Rah;4.5145134;73.37029931463772;MV;Malé Atoll
+101;Mali;Malé;4.1779879;73.5107387;MV;
+102;Malta;Malta;35.90221125;14.413771221238456;MT;Northern Region
+103;Marshall Islands;Marshall Islands;8.9995549;168.0002575;;
+104;Mauritania;Mauritania;25.21534785;55.16782550577598;AE;Dubai
+105;Mauritius;Piton;-20.0958533;57.6349749;MU;Rivière du Rempart District
+106;Mexico;Mexico City;19.4326296;-99.1331785;MX;
+107;Micronesia, Fed. Sts.;Micronesia;7.0;155.25;;
+108;Moldova;Moldavia;46.9110939;27.2407723;RO;
+109;Monaco;Monaco;43.7311424;7.4197576;MC;
+110;Mongolia;Mongolia;43.9382593;-79.2235563;CA;Ontario
+111;Montenegro;Montenegro;-29.6826112;-51.4687455;BR;Rio Grande do Sul
+112;Morocco;Morocco;25.21643135;55.16539122632322;AE;Dubai
+113;Mozambique;Mozambique;19.058889;-96.254167;MX;Veracruz
+114;Myanmar;Burma;25.2335648;55.17769106950793;AE;Dubai
+115;Namibia;Namibia;25.21294965;55.179690756441246;AE;Dubai
+116;Nauru;Nauru;-0.52832605;166.93091238321813;NR;Buada
+117;Nepal;Nepal;31.2496266;73.6632218;PK;Punjab
+118;Netherlands;Netherlands;36.2993736;-89.7510062;US;Missouri
+119;New Caledonia;New Caledonia;33.0551363;-92.6676556;US;Arkansas
+120;New Zealand;New Zealand;46.4099904;-62.313043;CA;Prince Edward Island
+121;Nicaragua;Nicaragua;28.3929796;-109.9816718;MX;Sonora
+122;Niger;Niger;25.21715185;55.170653742954116;AE;Dubai
+123;Nigeria;Nigeria;25.21490645;55.174787069501136;AE;Dubai
+124;Norway;Norway;41.9027805;-91.9215691;US;Iowa
+125;Oman;Oman;22.17;58.0;OM;Ad Dakhiliyah Governorate
+126;Pakistan;khuian;33.0281858;72.0575345;PK;Punjab
+127;Palau;Palau-del-Vidre;42.5717989;2.9600905;FR;Occitania
+128;Panama;Panama;8.9714493;-79.5341802;PA;Panamá
+129;Papua New Guinea;New Guinea;-5.522593049999999;142.08709052245882;PG;
+130;Paraguay;Asuncion;-25.2800459;-57.6343814;PY;
+131;Peru;Peru;41.3272919;-89.1287636;US;Illinois
+132;Philippines;Dapitan;8.6549449;123.4243754;PH;Zamboanga del Norte
+133;Poland;Poland;41.024226;-80.614795;US;Ohio
+134;Portugal;Portugal;-1.6292632;-45.2368151;BR;Maranhão
+135;Puerto Rico;Puerto Rico;27.7865973;-15.7117774;ES;
+136;Qatar;Qatar;39.1074426;47.5061085;IR;East Azerbaijan Province
+137;Romania;Valeapai Caras-Severin;45.49288425;21.71999265492126;RO;
+138;Rwanda;Rwanda;8.9917947;38.7793214;ET;Addis Ababa
+139;Samoa;Samoa;40.8187372;-124.1864518;US;California
+140;San Marino;City of San Marino;43.9363996;12.4466991;SM;
+141;Saudi Arabia;Saudi Arabia Towers;27.1860382;31.19298082388167;EG;Asyut
+142;Senegal;Senegal;5.8304643;36.6642147;ET;Southern Nations, Nationalities, and Peoples
+143;Serbia;Σέρβια;40.1846282;21.9990312;GR;Epirus and Western Macedonia
+144;Seychelles;Seychelles;25.22444045;55.18297256651013;AE;Dubai
+145;Sierra Leone;Freetown;8.479004;-13.26795;SL;Western Area Urban
+146;Singapore;Singapore;1.2899175;103.8519072;SG;
+147;Solomon Islands;Solomon Islands;-7.9999999;158.9999999;SB;Isabel
+148;Somalia;Somalia;-13.180556;15.266667;AO;Huambo Province
+149;South Africa;Jimmy Jones;-23.0379481;30.6493787;ZA;Limpopo
+150;Spain;Santander;9.4170689;123.3351935;PH;Cebu
+151;Sri Lanka;Sri Lanka;7.877395849999999;80.66247852355892;LK;
+152;St. Lucia;Saint Lucia;13.90904385;-60.97792414113452;LC;Castries
+153;St. Martin (French part);Saint Martin (France);18.0814066;-63.0467131;FR;Saint Martin (France)
+154;Sudan;Sudan;10.9;6.5;NG;Kaduna State
+155;Suriname;Boven Suriname;3.91840165;-55.683556092575174;SR;
+156;Sweden;Sweden;44.133435;-70.822678;US;Maine
+157;Switzerland;Switzerland;55.0473993;24.2586917;LT;Kaunas County
+158;Tajikistan;Tajikistan;37.3878883;68.6641057;TJ;Khatlon Region
+159;Tanzania;Namanga;-2.5502402;36.7857028;TZ;Arusha
+160;Thailand;Thailand;7.4931858;124.724704;PH;North Cotabato
+161;Togo;Togo;35.095364;137.042787;JP;
+162;Tonga;Tonga;4.969409;10.699308;CM;West
+163;Tunisia;Tunis;36.8002068;10.1857757;TN;Tunis
+164;Turkiye;Turkey;25.227394949999997;55.16667799476122;AE;Dubai
+165;Turkmenistan;"Türkmenistan;Туркменистан";40.4690217;62.2125775;TM;Lebap Region
+166;Uganda;Uganda;11.3163165;4.948482;NG;Niger State
+167;Ukraine;Pechera;48.852417;28.722033;UA;Vinnytsia Oblast
+168;United Arab Emirates;United Arab Emirates;25.22773555;55.174999621360726;AE;Dubai
+169;United Kingdom;United Kingdom;25.22331675;55.15941464826079;AE;Dubai
+170;United States;United States Minor Outlying Islands;16.7325005;-169.5282535;US;
+171;Uruguay;Uruguay;-32.5049394;-53.5041115;UY;Cerro Largo
+172;Uzbekistan;Tashkent;41.3123363;69.2787079;UZ;
+173;Vanuatu;Vanuatu Abbatoir;-17.6873309;168.3049371;VU;Shefa Province
+174;Viet Nam;Viet Nam;20.5996992;-76.3971143;CU;Holguín
+175;Yemen, Rep.;Yaman;15.268007;42.583216;YE;Al Hudaydah Governorate
+176;Zambia;Zambia;-10.9432722;14.1443449;AO;Cuanza Sul Province
+177;Zimbabwe;Zimbabwe;4.7609886;-6.66608;CI;Bas-Sassandra
+178;East Asia & Pacific;South East Asia Sector;21.373205849999998;39.98454002360009;SA;Makkah Region
+179;East Asia & Pacific (excluding high income);South East Asia Sector;21.373205849999998;39.98454002360009;SA;Makkah Region
+180;East Asia & Pacific (IDA & IBRD countries);South East Asia Sector;21.373205849999998;39.98454002360009;SA;Makkah Region
+181;Europe & Central Asia;Quartier de l'Europe;48.8791535;2.3232963;FR;Ile-de-France
+182;Europe & Central Asia (excluding high income);Quartier de l'Europe;48.8791535;2.3232963;FR;Ile-de-France
+183;Europe & Central Asia (IDA & IBRD countries);Quartier de l'Europe;48.8791535;2.3232963;FR;Ile-de-France
+184;IDA & IBRD total;Ida;33.0028525;-93.8929997;US;Louisiana
+185;Low & middle income;Low;45.811333;-75.952263;CA;Quebec
+186;Low income;Low Income Housing;31.3458901;27.222160782361907;EG;Matruh
+187;Middle East & North Africa;Middle East;39.3014159;-76.5888477;US;Maryland
+188;Middle East & North Africa (excluding high income);Middle East;39.3014159;-76.5888477;US;Maryland
+189;Middle East & North Africa (IDA & IBRD countries);Middle East;39.3014159;-76.5888477;US;Maryland
+190;South Asia;South East Asia Sector;21.373205849999998;39.98454002360009;SA;Makkah Region
+191;World;World's End;51.4860978;-1.2995085;GB;England
