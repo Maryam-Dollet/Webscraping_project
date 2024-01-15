@@ -14,3 +14,8 @@ def load_results():
 @st.cache_data
 def load_positions():
     df_positions = pd.read_csv("data_csv/host_city_position.csv", sep=",")
+    df_results = load_results()
+
+    df_merged = df_results.merge(df_positions, how="left", on="Lieu")
+    df_merged = df_merged.drop_duplicates(subset=["Lieu","Annee"])
+    return df_positions
