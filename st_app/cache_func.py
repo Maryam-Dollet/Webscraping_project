@@ -4,7 +4,8 @@ import pandas as pd
 @st.cache_data
 def load_events():
     df_events = pd.read_csv("data_csv/events_cleaned.csv", sep=";")
-    return df_events
+    games_df = df_events[df_events['season'].isin(["Summer", "Winter"])]
+    return games_df
 
 @st.cache_data
 def load_results():
