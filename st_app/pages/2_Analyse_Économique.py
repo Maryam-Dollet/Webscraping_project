@@ -48,6 +48,8 @@ st.plotly_chart(fig)
 
 st.subheader("Evolution du PIB du pays hôte après les Jeux Olypiques")
 
+st.markdown("On peut ici sélectionner l'année des Jeux Olympiques et voir le PIB 7 ans après pour voir s'il y a eu un impact positif ou négatif.")
+
 select1 = st.selectbox("Select the Game", list(hosts["Game"]))
 
 filtered = hosts[hosts["Game"] == select1][["Game", "iso2", "Annee"]].merge(gdp_countries, how="left", on="iso2").melt(id_vars=["Game", "Annee","country_name", "iso2"], var_name="Year", value_name="GDP")
@@ -63,3 +65,5 @@ st.dataframe(final_filtered.style.format({"Year": lambda x: "{:}".format(x), "An
 fig = px.line(final_filtered, x="Year", y="GDP")
 
 st.plotly_chart(fig)
+
+st.markdown("Dans notre cas, on peut voir une croissance varié selon l'année des JO. On ne peut pas simplement dire que ce sont principalement les JO qui ont causé un croissance ou décroissance du PIB, sachant que dans les années 1990 c'était le début de la mondialisation, plusieurs facteurs peuvent faire partie de la raison de pourquoi un tel pays à pu croître économiquement. Mais on peut émettre une hypothèse.")
