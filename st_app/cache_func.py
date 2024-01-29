@@ -21,3 +21,9 @@ def load_positions():
     df_merged["description"] = df_merged["Lieu"].astype(str) + " " + df_merged["Annee"].astype(str)
     df_merged = df_merged.drop_duplicates(subset=["Lieu","Annee"]).sort_values("Annee", ignore_index=True)
     return df_merged[["Lieu", "Annee", "longitude", "latitude", "description"]]
+
+
+@st.cache_data
+def load_gdp():
+    df = pd.read_csv("data_csv/country_gdp_and_positions.csv", sep=';')
+    return df
