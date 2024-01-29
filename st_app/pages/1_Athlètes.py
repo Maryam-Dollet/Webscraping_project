@@ -17,7 +17,6 @@ fig = px.bar(
     x="year",
     y="count",
     color="Sex",
-    title="Gender Repartition through the years",
     barmode="group",
     width=1400,
     height=800,
@@ -27,4 +26,6 @@ fig = px.bar(
 fig.update_traces(textfont_size=12, textangle=0, textposition="outside", cliponaxis=False)
 fig.update_xaxes(type="category")
 fig.update_xaxes(tickangle=45)
+
+st.markdown("#### Répartition des athlètes selon le genre au cours des années")
 st.plotly_chart(fig)
