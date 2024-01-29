@@ -14,10 +14,10 @@ df_gdp = load_gdp()
 # st.dataframe(df_gdp)
 
 gdp_countries = pd.read_csv("data_csv/country_gdp.csv", sep=";")
-st.dataframe(gdp_countries[:-49])
+st.dataframe(gdp_countries)
 
-gdp_coutries_transposed = gdp_countries[:-49].melt(id_vars=["country_name"], var_name="Year", value_name="GDP")
-st.dataframe(gdp_coutries_transposed)
+gdp_coutries_transposed = gdp_countries.melt(id_vars=["country_name", "iso2"], var_name="Year", value_name="GDP")
+# st.dataframe(gdp_coutries_transposed)
 
 # positions = pd.read_csv("data_csv/gdp_country_positions.csv", sep=";")
 # st.dataframe(positions)
