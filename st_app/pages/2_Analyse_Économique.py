@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-from cache_func import load_gdp
+from cache_func import load_gdp, load_hosts
 
 st.title("Analyse Economique des Pays Hôtes")
 
@@ -10,12 +10,12 @@ st.write("Dans cette partie, nous tentons de réaliser une étude du profit des 
 st.write("")
 
 df_gdp = load_gdp()
+hosts = load_hosts()
 
 # st.dataframe(df_gdp)
 
 gdp_countries = pd.read_csv("data_csv/country_gdp.csv", sep=";")
 st.dataframe(gdp_countries)
-
 gdp_coutries_transposed = gdp_countries.melt(id_vars=["country_name", "iso2"], var_name="Year", value_name="GDP")
 # st.dataframe(gdp_coutries_transposed)
 
@@ -43,3 +43,15 @@ fig.update_geos(
 )
 
 st.plotly_chart(fig)
+
+st.dataframe(hosts)
+
+select1 = st.selectbox("Select the Game", list(hosts["Game"]))
+
+filtered = hosts[hosts["Game"] == select1][["Game", "iso2", "Annee"]].merge(gdp_countries, how="left", on="iso2").melt(id_vars=["Game", "Annee","country_name", "iso2"], var_name="Year", value_name="GDP")
+filtered.Year =  filtered.Year.astype(int)
+
+gap = filtered.iloc[0].Annee
+final_filtered = filtered[filtered["Year"].between(gap, gap + 7)]
+
+st.dataframe(final_filtered)

@@ -27,3 +27,13 @@ def load_positions():
 def load_gdp():
     df = pd.read_csv("data_csv/country_gdp_and_positions.csv", sep=';')
     return df
+
+@st.cache_data
+def load_hosts():
+    host_city_df = pd.read_csv("data_csv/host_city_positions.csv", sep=";")
+    df1 = host_city_df[host_city_df["Annee"] >= 1960]
+    df1 = df1.rename(columns={"country": "iso2"})
+    df1["Game"] = df1["Lieu"].astype(str) + " " + df1["Annee"].astype(str)
+    return df1
+
+    
