@@ -55,8 +55,10 @@ filtered.Year =  filtered.Year.astype(int)
 
 gap = filtered.iloc[0].Annee
 final_filtered = filtered[filtered["Year"].between(gap, gap + 7)]
+final_filtered["pct_change"] = final_filtered["GDP"].pct_change() * 100
+final_filtered = final_filtered.fillna(0)
 
-st.dataframe(final_filtered)
+st.dataframe(final_filtered.style.format({"Year": lambda x: "{:}".format(x), "Annee": lambda x: "{:}".format(x)}))
 
 fig = px.line(final_filtered, x="Year", y="GDP")
 
