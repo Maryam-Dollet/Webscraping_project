@@ -15,7 +15,7 @@ hosts = load_hosts()
 # st.dataframe(df_gdp)
 
 gdp_countries = pd.read_csv("data_csv/country_gdp.csv", sep=";")
-st.dataframe(gdp_countries)
+# st.dataframe(gdp_countries)
 gdp_coutries_transposed = gdp_countries.melt(id_vars=["country_name", "iso2"], var_name="Year", value_name="GDP")
 # st.dataframe(gdp_coutries_transposed)
 
@@ -44,7 +44,9 @@ fig.update_geos(
 
 st.plotly_chart(fig)
 
-st.dataframe(hosts)
+# st.dataframe(hosts)
+
+st.subheader("Evolution du PIB du pays hôte après les Jeux Olypiques")
 
 select1 = st.selectbox("Select the Game", list(hosts["Game"]))
 
@@ -55,3 +57,7 @@ gap = filtered.iloc[0].Annee
 final_filtered = filtered[filtered["Year"].between(gap, gap + 7)]
 
 st.dataframe(final_filtered)
+
+fig = px.line(final_filtered, x="Year", y="GDP")
+
+st.plotly_chart(fig)
