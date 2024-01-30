@@ -52,6 +52,8 @@ test = filtered_gh[filtered_gh['country'] == select1].groupby('year')['GH emissi
 # st.dataframe(test)
 game_year = int(filtered_gh[filtered_gh['country'] == select1].iloc[0].Annee)
 
+st.markdown("##### La ligne verticale rose indique l'année où le pays a organisé des Jeux Olympiques")
+
 fig = px.line(test,
               x="year",
               y="GH emissions",
