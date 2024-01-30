@@ -158,3 +158,5 @@ fig = px.scatter(medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'
               width=1000,
               height=600)
 st.plotly_chart(fig)
+
+st.markdown("Pour chacune de ces éditions boycotées par l'un des deux pays, l'autre a dominé les Jeux olympiques en y remportant un grand nombre de médailles.")
