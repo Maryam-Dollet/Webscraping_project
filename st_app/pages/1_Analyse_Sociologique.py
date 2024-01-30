@@ -9,7 +9,8 @@ st.title("Etude des joueurs")
 
 events = load_events()
 
-st.dataframe(events)
+with st.expander("Raw Data"):
+    st.dataframe(events)
 
 gender_df = events.drop_duplicates(subset=["id", "year"], ignore_index=True).groupby('year')['Sex'].value_counts().reset_index()
 
@@ -33,7 +34,12 @@ st.plotly_chart(fig)
 
 st.markdown("#### Pays Participants aux Jeux Olympiques")
 
+noc_df = events.drop_duplicates(subset=["id", "year"]).groupby(by=["year", "NOC"])['NOC'].value_counts().reset_index()
+nb_noc = noc_df["year"].value_counts().reset_index().sort_values("year", ignore_index=True)
+nb_noc["year"] = nb_noc["year"].astype(str)
 
+fig = px.bar(nb_noc, x="year", y="count", height=600, width=1200, title="Nombre de Pays participant aux JO à travers le temps")
+st.plotly_chart(fig)
 
 st.markdown("#### Analyse des obtentions des médailles")
 
