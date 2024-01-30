@@ -29,3 +29,7 @@ fig.update_xaxes(tickangle=45)
 
 st.markdown("#### Répartition des athlètes selon le genre au cours des années")
 st.plotly_chart(fig)
+
+st.markdown("#### Pays Participants aux Jeux Olympiques")
+
+st.markdown("#### Analyse des obtentions des médailles")
