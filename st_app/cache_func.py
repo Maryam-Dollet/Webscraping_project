@@ -25,7 +25,7 @@ def load_positions():
 
 @st.cache_data
 def load_gdp():
-    df = pd.read_csv("data_csv/country_gdp_and_positions.csv", sep=';')
+    df = pd.read_csv("data_csv/country_gdp.csv", sep=';')
     return df
 
 @st.cache_data

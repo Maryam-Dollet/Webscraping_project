@@ -49,7 +49,7 @@ st.write(filtered_gh['sector'].unique().tolist())
 
 test = filtered_gh[filtered_gh['country'] == select1].groupby('year')['GH emissions'].sum().reset_index()
 
-# st.dataframe(test)s
+# st.dataframe(test)
 game_year = int(filtered_gh[filtered_gh['country'] == select1].iloc[0].Annee)
 
 fig = px.line(test,
