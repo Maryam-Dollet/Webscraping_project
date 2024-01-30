@@ -33,6 +33,8 @@ st.plotly_chart(fig)
 
 st.markdown("#### Pays Participants aux Jeux Olympiques")
 
+
+
 st.markdown("#### Analyse des obtentions des médailles")
 
 medals = load_medals()
