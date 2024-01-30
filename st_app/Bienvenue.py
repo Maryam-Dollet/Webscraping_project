@@ -17,7 +17,7 @@ st.markdown("Les sports.infos, tableaux des médailles : https://www.les-sports
 st.markdown("l’OCDE, émissions de gaz à effet de serre : https://stats.oecd.org/Index.aspx?DataSetCode=air_ghg")
 st.markdown("The world Bank, évolution du PIB par pays : https://databank.worldbank.org/reports.aspx?source=2&series=NY.GDP.MKTP.CD&country#")
 st.markdown("Olympedia, informations sur les athlètes : https://www.olympedia.org/athletes/1")
-st.markdown("Le site avec les données sur le revenu et les coûts des Jeux Olypiques : https://www.cfr.org/backgrounder/economics-hosting-olympic-games")
+st.markdown("Council on Foreign Relations, données sur le revenu et les coûts des Jeux Olypiques : https://www.cfr.org/backgrounder/economics-hosting-olympic-games")
 
 # -- A compléter avec les autres sites -- #
 st.markdown("")
