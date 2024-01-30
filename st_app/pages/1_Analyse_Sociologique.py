@@ -1,6 +1,5 @@
 import streamlit as st
 import plotly.express as px
-import pandas as pd
 from cache_func import load_events, load_medals
 
 st.set_page_config(layout="wide")
