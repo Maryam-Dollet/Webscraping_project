@@ -1,5 +1,6 @@
 import streamlit as st
 import plotly.express as px
+import pandas as pd
 from cache_func import load_events
 
 st.set_page_config(layout="wide")
@@ -33,3 +34,73 @@ st.plotly_chart(fig)
 st.markdown("#### Pays Participants aux Jeux Olympiques")
 
 st.markdown("#### Analyse des obtentions des médailles")
+
+medals = pd.read_csv("data_csv/medals.csv", sep=';')
+# st.dataframe(medals)
+medals['Country'] = medals['Country'].replace(['East Germany', 'West Germany', 'Statement in intervention submitted by Germany', 'Germany, Empire'], 'Germany')
+
+medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10)
+
+# on a bar chart px countries in the x axis and total medals in the y axis
+fig = px.bar(medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10),
+             x=medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10).index,
+             y=medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10).values,
+             labels={'x': 'Country', 'y': 'Total Medals'})
+st.plotly_chart(fig)
+
+fig = px.line(medals.groupby('Year')['Total'].sum(),
+              x=medals.groupby('Year')['Total'].sum().index,
+              y=medals.groupby('Year')['Total'].sum().values,
+              labels={'x': 'Year', 'y': 'Total Medals'},
+              title='Evolution of total medals distributed over the years')
+st.plotly_chart(fig)
+
+fig = px.scatter(medals.groupby(['Year', 'Country'])['Total'].sum().reset_index(),
+                 x='Year',
+                 y='Total',
+                 size='Total',
+                 color='Country',
+                 labels={'x': 'Year', 'y': 'Total Medals'},
+                 title='Evolution of total medals won by each country over the years')
+st.plotly_chart(fig)
+
+medals_by_country = medals.groupby('Country').sum()[['Gold', 'Silver', 'Bronze', 'Total']]
+
+fig = px.bar(medals_by_country, x=medals_by_country.index, y=['Gold', 'Silver', 'Bronze'],
+             color_discrete_map={'Gold': 'gold', 'Silver': 'silver', 'Bronze': 'brown'},
+             title='Medals Distribution by Country',
+             labels={'value': 'Number of Medals', 'variable': 'Medal Type'},
+             barmode='group')
+st.plotly_chart(fig)
+
+fig = px.bar(medals_by_country.sort_values('Total', ascending=False).head(10),
+             x=medals_by_country.sort_values('Total', ascending=False).head(10).index,
+             y=['Gold', 'Silver', 'Bronze'],
+             color_discrete_map={'Gold': 'gold', 'Silver': 'silver', 'Bronze': 'brown'},
+             title='Top 10 Countries - Medals Distribution',
+             labels={'value': 'Number of Medals', 'variable': 'Medal Type'},
+             barmode='group')
+fig.update_xaxes(title_text='Country')
+st.plotly_chart(fig)
+
+fig = px.line(medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum(),
+              x=medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum().index,
+              y=medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum().values,
+              labels={'x': 'Year', 'y': 'Total Medals'},
+              title='Evolution of total medals won by France over the years')
+st.plotly_chart(fig)
+
+st.markdown("#### Analyse Historique")
+fig = px.scatter(medals[medals['Country'] == 'UNITED STATES'].groupby('Year')['Total'].sum(),
+              x=medals[medals['Country'] == 'UNITED STATES'].groupby('Year')['Total'].sum().index,
+              y=medals[medals['Country'] == 'UNITED STATES'].groupby('Year')['Total'].sum().values,
+              labels={'x': 'Year', 'y': 'Total Medals'},
+              title='Evolution of total medals won by the United States over the years')
+st.plotly_chart(fig)
+
+fig = px.scatter(medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'].sum(),
+              x=medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'].sum().index,
+              y=medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'].sum().values,
+              labels={'x': 'Year', 'y': 'Total Medals'},
+              title='Evolution of total medals won by the U.S.S.R. over the years')
+st.plotly_chart(fig)
