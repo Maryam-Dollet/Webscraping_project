@@ -46,7 +46,7 @@ Contient les fichiers qui permettent de faire fonctionner la web app streamlit
 
 **analysis_on_scraped_data.ipynb** : Contient l'analyse sur le dataset des médailles et l'analyse sur le dataset des GES ainsi que les visualisations qui vont avec. 
 
-### Lien des Sites 
+### Liens des Sites 
 
 **Les sports.infos**, tableaux des médailles : https://www.les-sports.info/2021-tokyo-jeux-olympiques-d-ete-s16-c0-b0-j0-u323.html​
 
