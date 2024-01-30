@@ -74,3 +74,14 @@ fig.update_layout(title_text=f'Evolution of GH emissions % of augmentation in {s
 fig.add_vline(x=game_year, line_width=3, line_dash="dash", line_color="pink")
 
 st.plotly_chart(fig)
+
+
+st.markdown(f"##### {select1} a accueilli les jeux olympiques en {game_year}")
+
+st.markdown(f"Après une étude approfondie; chez les pays organisateurs, nous avons pu voir des changements significatifs dans les émissions de GES les années des JO
+             pour certains secteurs d'émission. Cependant, cela ne peut pas être directement attribué aux jeux olympiques."
+            +" Les émissions de ces secteurs d'activité sont trop fluctuantes pour que nous puissions tirer une conclusion tranchée de cette analyse.")
+
+st.markdown("Pour conclure, nous pouvons dire que nous n'avons pas relevé d'impact significatif des jeux olympiques sur les émissions de GES du pays hôte d'une année à l'autre."
+            +" Nous sommes limités par nos données en ce sens. Nous pourrions potentiellement obtenir des résultats plus probants en étudiant les émissions de GES uniquement de la ville hôte et non du pays entier."
+            +" De telles données sont difficilement accessibles mais obtenir des données mensuelles ou hebdomadaires serait également plus probant")
