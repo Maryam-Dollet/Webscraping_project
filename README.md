@@ -45,3 +45,15 @@ Contient les fichiers qui permettent de faire fonctionner la web app streamlit
 **gdp_analysis.ipynb** : Contient l'analyse du PIB des pays hôte de JO et les visualisations.
 
 **analysis_on_scraped_data.ipynb** : Contient l'analyse sur le dataset des médailles et l'analyse sur le dataset des GES ainsi que les visualisations qui vont avec. 
+
+### Lien des Sites 
+
+**Les sports.infos**, tableaux des médailles : https://www.les-sports.info/2021-tokyo-jeux-olympiques-d-ete-s16-c0-b0-j0-u323.html​
+
+**l’OCDE**, émissions de gaz à effet de serre : https://stats.oecd.org/Index.aspx?DataSetCode=air_ghg​
+
+**The World Bank**, évolution du PIB par pays : https://databank.worldbank.org/reports.aspx?source=2&series=NY.GDP.MKTP.CD&country#​
+
+**Olympedia**, informations sur les athlètes : https://www.olympedia.org/athletes/1​
+
+**Council on Foreign Relations**, revenus et coûts des Jeux Olypiques : https://www.cfr.org/backgrounder/economics-hosting-olympic-games ​
