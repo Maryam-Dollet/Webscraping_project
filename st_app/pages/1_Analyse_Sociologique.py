@@ -57,7 +57,7 @@ fig = px.bar(filtered_noc, x='NOC', y="count", height=800, width=1100, title=f"N
 fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig)
 
-st.write("Selon ce Grphique, on peut voir qu'au cours du temps les pays augmentent, mais on constate que ce sont les pays les plus développés et avec un PIB élevé qui ont le plus de participants")
+st.write("Selon ce Graphique, on peut voir qu'au cours du temps les pays augmentent, mais on constate que ce sont les pays les plus développés et avec un PIB élevé qui ont le plus de participants")
 
 st.markdown("#### Analyse des obtentions des médailles")
 
@@ -82,6 +82,9 @@ fig = px.line(medals.groupby('Year')['Total'].sum(),
               height=600)
 st.plotly_chart(fig)
 
+st.markdown("Le nombre de médailles distribuées aux jeux olympiques augmente au fil du temps")
+st.markdown("Cela peut s'expliquer par l'augmentation du nombre de pays participants, mais aussi par l'augmentation du nombre de disciplines sportives.")
+
 fig = px.scatter(medals.groupby(['Year', 'Country'])['Total'].sum().reset_index(),
                  x='Year',
                  y='Total',
@@ -92,6 +95,8 @@ fig = px.scatter(medals.groupby(['Year', 'Country'])['Total'].sum().reset_index(
                  width=1200,
                  height=600)
 st.plotly_chart(fig)
+
+st.markdown("Nous pouvons observer sur certaines périodes une domination de l'URSS (points oranges) et des Etats-Unis (points gris) en termes de nombre de médailles remportées.")
 
 medals_by_country = medals.groupby('Country').sum()[['Gold', 'Silver', 'Bronze', 'Total']]
 
@@ -117,6 +122,8 @@ fig = px.bar(medals_by_country.sort_values('Total', ascending=False).head(10),
 fig.update_xaxes(title_text='Country')
 st.plotly_chart(fig)
 
+st.markdown("Les pays sont ici classés en fonction du nombre total de médailles remportées. On peut voir que les Etats-Unis sont le pays qui a remporté le plus de médailles, suivi par l'Allemagne et l'URSS")
+
 fig = px.line(medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum(),
               x=medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum().index,
               y=medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum().values,
@@ -125,6 +132,9 @@ fig = px.line(medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum
               width=1000,
               height=600)
 st.plotly_chart(fig)
+
+st.markdown("La France a remporté le plus de médailles en 1900, année où les JO se sont déroulés à Paris. On peut également remarquer que la France a remporté beaucoup de médailles en 1924, année où les JO se sont déroulés à Paris également.")
+st.markdown("Ces dernières années, la France est sur une tendance à la hausse par rapport au milieu des années 1900")
 
 st.markdown("#### Analyse Historique")
 fig = px.scatter(medals[medals['Country'] == 'UNITED STATES'].groupby('Year')['Total'].sum(),
@@ -135,6 +145,10 @@ fig = px.scatter(medals[medals['Country'] == 'UNITED STATES'].groupby('Year')['T
               width=1000,
               height=600)
 st.plotly_chart(fig)
+
+st.markdown("Nous pouvons observer l'absence des États-Unis aux Jeux olympiques de Moscou en 1980 ;")
+st.markdown("le pays a boycotté les jeux pour protester contre l'invasion de l'Afghanistan par l'Union soviétique.")
+st.markdown("L'Union soviétique a riposté en boycottant les Jeux olympiques de Los Angeles en 1984 comme on peut le voir sur le graphique ci-dessous :")
 
 fig = px.scatter(medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'].sum(),
               x=medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'].sum().index,
