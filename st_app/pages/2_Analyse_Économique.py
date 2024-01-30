@@ -79,10 +79,10 @@ og_cost_df["Cost"] = (og_cost_df["Cost"].replace(r'[KMB]+$', '', regex=True).ast
 broadcast_revenue_df["desc"] = (broadcast_revenue_df["Year"].astype(str) + " " + broadcast_revenue_df["City"].astype(str) + " " + broadcast_revenue_df["Game_type"].astype(str)).str.replace("nan ", "").str.replace(".0", "")
 og_cost_df["desc"] = (og_cost_df["Year"].astype(str) + " " + og_cost_df["City"].astype(str) + " " + og_cost_df["Game_type"].astype(str)).str.replace('nan ', "")
 
-st.markdown("#### Revenue sur la Diffusion des Jeux Olympiques")
+st.markdown("#### Revenus sur la Diffusion des Jeux Olympiques")
 st.dataframe(broadcast_revenue_df.style.format({"Year": lambda x: "{:}".format(x)}))
 
-fig = px.bar(broadcast_revenue_df, x="revenue", y="desc")
+fig = px.bar(broadcast_revenue_df[["revenue", "desc"]][::-1], x="revenue", y="desc", height=800, width=1000)
 st.plotly_chart(fig)
 
 st.markdown("#### Coût des Jeux Olympiques")
