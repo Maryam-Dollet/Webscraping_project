@@ -110,5 +110,5 @@ merged["desc"] = (merged["Year"].astype(str) + " " + merged["City"].astype(str) 
 fig = px.bar(merged[["percentage", "desc"]][::-1], x="percentage", y="desc", color="percentage", text_auto='.2s', height=800, width=1000, color_continuous_scale="purd")
 st.plotly_chart(fig)
 
-st.markdown("La part de compensation des coûts des JOs par les revenus provenant de leur diffusion est très variable d'une édition à l'autre :"
-            + " \nCette diffusion, bien que ne permettant pas de compenser les coûts de l'évènement, y participe tout de même de manière significative !")
+st.markdown("La part de compensation des coûts des JOs par les revenus provenant de leur diffusion est très variable d'une édition à l'autre :")
+st.markdown("Cette diffusion, bien que ne permettant pas de compenser les coûts de l'évènement, y participe tout de même de manière significative !")
