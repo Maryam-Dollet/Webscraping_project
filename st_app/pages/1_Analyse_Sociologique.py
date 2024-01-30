@@ -32,6 +32,8 @@ fig.update_xaxes(tickangle=45)
 st.markdown("#### Répartition des athlètes selon le genre au cours des années")
 st.plotly_chart(fig)
 
+st.write("On peut remarquer qu'au fil du temps, la parité devient de plus en plus proche, ce qui donne la preuve d'une certaine évolution. Cependant, il y a toujours moins de femme athlètes que d'hommes athlètes, cela peut notamment s'expliquer sur l'écart de financement. En effet les athlètes qui participent dans la catégorie des femmes gagnent moins de le sport que la gente masculine, elles sont également moins financées et rencontrent des problèmes liés à cela.")
+
 st.markdown("#### Pays Participants aux Jeux Olympiques")
 
 noc_df = events.drop_duplicates(subset=["id", "year"]).groupby(by=["year", "NOC"])['NOC'].value_counts().reset_index()
@@ -40,6 +42,23 @@ nb_noc["year"] = nb_noc["year"].astype(str)
 
 fig = px.bar(nb_noc, x="year", y="count", height=600, width=1200, title="Nombre de Pays participant aux JO à travers le temps")
 st.plotly_chart(fig)
+
+st.write("Ce graphique montre que de plus en plus de pays participent au cours du temps, on peut dire que les JO deviennent de plus en plus inclusifs.")
+
+st.markdown("#### Nombre de Joueurs par Pays")
+year = st.select_slider(
+    "Selectionnez l'Année", options=noc_df.sort_values("year").year.unique()
+)
+
+filtered_noc = noc_df[noc_df["year"] == year].sort_values("count")
+
+# st.dataframe(filtered_noc)
+
+fig = px.bar(filtered_noc, x='NOC', y="count", height=800, width=1100, title=f"Nombre de Joueur par Pays aux Jeux Olympiques de {year}")
+fig.update_xaxes(tickangle=45)
+st.plotly_chart(fig)
+
+st.write("Selon ce Grphique, on peut voir qu'au cours du temps les pays augmentent, mais on constate que ce sont les pays les plus développés et avec un PIB élevé qui ont le plus de participants")
 
 st.markdown("#### Analyse des obtentions des médailles")
 
