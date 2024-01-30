@@ -67,3 +67,20 @@ fig = px.line(final_filtered, x="Year", y="GDP")
 st.plotly_chart(fig)
 
 st.markdown("Dans notre cas, on peut voir une croissance varié selon l'année des JO. On ne peut pas simplement dire que ce sont principalement les JO qui ont causé un croissance ou décroissance du PIB, sachant que dans les années 1990 c'était le début de la mondialisation, plusieurs facteurs peuvent faire partie de la raison de pourquoi un tel pays à pu croître économiquement. Mais on peut émettre une hypothèse.")
+
+broadcast_revenue_df = pd.read_csv("data_csv/broadcast_revenue.csv", sep=";")
+og_cost_df = pd.read_csv("data_csv/olympic_games_cost.csv", sep=";")
+
+broadcast_revenue_df["revenue"] = broadcast_revenue_df["revenue"].str.replace("$", "")
+og_cost_df["Cost"] = og_cost_df["Cost"].str.replace("$", "")
+
+broadcast_revenue_df["revenue"] = (broadcast_revenue_df["revenue"].replace(r'[KMB]+$', '', regex=True).astype(float) * broadcast_revenue_df["revenue"].str.extract(r'[\d\.]+([KMB]+)', expand=False).fillna(1).replace(['K','M', 'B'], [10**3, 10**6, 10**9]).astype(int))
+og_cost_df["Cost"] = (og_cost_df["Cost"].replace(r'[KMB]+$', '', regex=True).astype(float) * og_cost_df["Cost"].str.extract(r'[\d\.]+([KMB]+)', expand=False).fillna(1).replace(['K','M', 'B'], [10**3, 10**6, 10**9]).astype(int))
+broadcast_revenue_df["desc"] = (broadcast_revenue_df["Year"].astype(str) + " " + broadcast_revenue_df["City"].astype(str) + " " + broadcast_revenue_df["Game_type"].astype(str)).str.replace("nan ", "").str.replace(".0", "")
+og_cost_df["desc"] = (og_cost_df["Year"].astype(str) + " " + og_cost_df["City"].astype(str) + " " + og_cost_df["Game_type"].astype(str)).str.replace('nan ', "")
+
+st.markdown("#### Revenue sur la Diffusion des Jeux Olympiques")
+st.dataframe(broadcast_revenue_df.style.format({"Year": lambda x: "{:}".format(x)}))
+
+st.markdown("#### Coût des Jeux Olympiques")
+st.dataframe(og_cost_df.style.format({"Year": lambda x: "{:}".format(x)}))
