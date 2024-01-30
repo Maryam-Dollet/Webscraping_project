@@ -78,8 +78,8 @@ st.plotly_chart(fig)
 
 st.markdown(f"##### {select1} a accueilli les jeux olympiques en {game_year}")
 
-st.markdown(f"Après une étude approfondie; chez les pays organisateurs, nous avons pu voir des changements significatifs dans les émissions de GES les années des JO
-             pour certains secteurs d'émission. Cependant, cela ne peut pas être directement attribué aux jeux olympiques."
+st.markdown(f"Après une étude approfondie; chez les pays organisateurs, nous avons pu voir des changements significatifs dans les émissions de GES les années des JO"
+            +" pour certains secteurs d'émission. Cependant, cela ne peut pas être directement attribué aux jeux olympiques."
             +" Les émissions de ces secteurs d'activité sont trop fluctuantes pour que nous puissions tirer une conclusion tranchée de cette analyse.")
 
 st.markdown("Pour conclure, nous pouvons dire que nous n'avons pas relevé d'impact significatif des jeux olympiques sur les émissions de GES du pays hôte d'une année à l'autre."

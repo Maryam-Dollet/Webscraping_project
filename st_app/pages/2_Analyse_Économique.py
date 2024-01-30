@@ -85,11 +85,16 @@ st.markdown("#### Revenus sur la Diffusion des Jeux Olympiques")
 fig = px.bar(broadcast_revenue_df[["revenue", "desc"]][::-1], x="revenue", y="desc", text_auto='.2s', height=800, width=1000)
 st.plotly_chart(fig)
 
+st.markdown("Les jeux olympiques sont de plus en plus diffusés dans le monde entier. Les revenus de la diffusion des jeux olympiques sont donc de plus en plus importants."+
+            " On observe également que les jeux d'été sont plus diffusés que les jeux d'hiver et rapportent donc plus de revenus.")
+
 st.markdown("#### Coût des Jeux Olympiques")
 # st.dataframe(og_cost_df.style.format({"Year": lambda x: "{:}".format(x)}))
 
 fig = px.bar(og_cost_df[::-1], x="Cost", y="desc", text_auto='.2s', height=600, width=800)
 st.plotly_chart(fig)
+
+st.markdown("Nous pouvons observer une totale décorrélation entre la saison des jeux olympiques et leur coût.")
 
 # participation de la diffusion des jeux olympiques à la compensation des coûts (revenu / coût) 
 # on ne peut avoir ce pourcentage que pour les années présentes dans les deux dataframes
@@ -104,3 +109,6 @@ merged["desc"] = (merged["Year"].astype(str) + " " + merged["City"].astype(str) 
 
 fig = px.bar(merged[["percentage", "desc"]][::-1], x="percentage", y="desc", color="percentage", text_auto='.2s', height=800, width=1000, color_continuous_scale="purd")
 st.plotly_chart(fig)
+
+st.markdown("La part de compensation des coûts des JOs par les revenus provenant de leur diffusion est très variable d'une édition à l'autre :")
+st.markdown("Cette diffusion, bien que ne permettant pas de compenser les coûts de l'évènement, y participe tout de même de manière significative !")
