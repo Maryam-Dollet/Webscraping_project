@@ -31,7 +31,7 @@ fig.update_xaxes(tickangle=45)
 st.markdown("#### Répartition des athlètes selon le genre au cours des années")
 st.plotly_chart(fig)
 
-st.write("On peut remarquer qu'au fil du temps, la parité devient de plus en plus proche, ce qui donne la preuve d'une certaine évolution. Cependant, il y a toujours moins de femme athlètes que d'hommes athlètes, cela peut notamment s'expliquer sur l'écart de financement. En effet les athlètes qui participent dans la catégorie des femmes gagnent moins de le sport que la gente masculine, elles sont également moins financées et rencontrent des problèmes liés à cela.")
+st.write("On peut remarquer qu'au fil du temps, la parité devient de plus en plus proche, ce qui donne la preuve d'une certaine évolution. Cependant, il y a toujours moins de femme athlètes que d'hommes athlètes, cela peut notamment s'expliquer sur l'écart de financement. En effet les athlètes qui participent dans la catégorie des femmes gagnent moins dans leur sport que la gente masculine. Elles sont également moins financées et rencontrent des problèmes liés à cela.")
 
 st.markdown("#### Pays Participants aux Jeux Olympiques")
 
