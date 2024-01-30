@@ -7,7 +7,7 @@ st.set_page_config(layout="wide")
 st.title("Jeux Olympiques une étude de leur croissance et leur effet sur le monde")
 
 st.markdown("##### Dans le contexte de l’organisation des Jeux Olympiques 2024, imminents, un retour sur l’impact de ces jeux sur les différent(e)s villes et pays s’impose :")
-st.markdown("#### Nous pouvons étudier et percevoir ces changements à travers 3 piliers qui se trouvent être ceux du développement durable : \" "+"l’impact économique, écologique et social de ces JOs.")
+st.markdown("#### Nous pouvons étudier et percevoir ces changements à travers 3 piliers qui se trouvent être ceux du développement durable :  " +"l’impact économique, écologique et social de ces JOs.")
 
 st.markdown("#### Comment les Jeux Olympiques se sont-ils développés au cours du temps et quels impacts ces développements ont-ils eus sur les pays organisateurs ?")
 
