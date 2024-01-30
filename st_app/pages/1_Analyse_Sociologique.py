@@ -1,7 +1,7 @@
 import streamlit as st
 import plotly.express as px
 import pandas as pd
-from cache_func import load_events
+from cache_func import load_events, load_medals
 
 st.set_page_config(layout="wide")
 
@@ -35,11 +35,8 @@ st.markdown("#### Pays Participants aux Jeux Olympiques")
 
 st.markdown("#### Analyse des obtentions des médailles")
 
-medals = pd.read_csv("data_csv/medals.csv", sep=';')
+medals = load_medals()
 # st.dataframe(medals)
-medals['Country'] = medals['Country'].replace(['East Germany', 'West Germany', 'Statement in intervention submitted by Germany', 'Germany, Empire'], 'Germany')
-
-medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10)
 
 # on a bar chart px countries in the x axis and total medals in the y axis
 fig = px.bar(medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10),

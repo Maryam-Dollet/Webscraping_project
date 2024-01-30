@@ -36,4 +36,9 @@ def load_hosts():
     df1["Game"] = df1["Lieu"].astype(str) + " " + df1["Annee"].astype(str)
     return df1
 
-    
+
+@st.cache_data
+def load_medals():
+    medals = pd.read_csv("data_csv/medals.csv", sep=';')
+    medals['Country'] = medals['Country'].replace(['East Germany', 'West Germany', 'Statement in intervention submitted by Germany', 'Germany, Empire'], 'Germany')
+    return medals
