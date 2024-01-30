@@ -26,17 +26,22 @@ Contient les fichiers qui permettent de faire fonctionner la web app streamlit
 
 ### Notebooks
 
-maryam_dollet_first_scrap.ipynb : Notebook qui contient le code de multithreading pour extraire les joueurs sur olympedia, ainsi que leur parsing
+**maryam_dollet_first_scrap.ipynb** : Notebook qui contient le code de multithreading pour extraire les joueurs sur olympedia, ainsi que leur parsing
 
-scrap_gdp.ipynb : Notebook contenant le code pour extraire le PIB sur le site databank.worldbank
+**scrap_gdp.ipynb** : Notebook contenant le code pour extraire le PIB sur le site databank.worldbank
 
-guillaume_de_trentinian_olympic_results.ipynb : Notebook contenant le scraping du site des médailles
+**guillaume_de_trentinian_olympic_results.ipynb** : Notebook contenant le scraping du site des médailles
 
-environmental_impact_olympic_games.ipynb : Notebook contenant le scraping du site de l'OCDE sur les Gaz à effet de serre. 
+**environmental_impact_olympic_games.ipynb** : Notebook contenant le scraping du site de l'OCDE sur les Gaz à effet de serre. 
 
-scrap_last_data.ipynb : Notebook contenant le scraping des données sur le revenu et le coût des JO 
+**scrap_last_data.ipynb** : Notebook contenant le scraping des données sur le revenu et le coût des JO 
 
-event_data_cleaning.ipynb : Notebook contenant le nettoyage et rajout de colonne du dataset sur les événements des JO.
+**event_data_cleaning.ipynb** : Notebook contenant le nettoyage et rajout de colonne du dataset sur les événements des JO.
 
-events_analysis.ipynb : Contient l'analyse des événements des JO, et plus précisement l'analyse sociale (Inclusion de Genre et de Pays)
+**events_analysis.ipynb** : Contient l'analyse des événements des JO, et plus précisement l'analyse sociale (Inclusion de Genre et de Pays)
 
+**get_city_positions.ipynb** : Contient les appels d'API pour ajouter des données dans les datasets. 
+
+**gdp_analysis.ipynb** : Contient l'analyse du PIB des pays hôte de JO et les visualisations.
+
+**analysis_on_scraped_data.ipynb** : Contient l'analyse sur le dataset des médailles et l'analyse sur le dataset des GES ainsi que les visualisations qui vont avec. 
