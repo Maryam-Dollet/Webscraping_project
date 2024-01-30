@@ -45,14 +45,18 @@ medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10)
 fig = px.bar(medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10),
              x=medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10).index,
              y=medals.groupby('Country')['Total'].sum().sort_values(ascending=False).head(10).values,
-             labels={'x': 'Country', 'y': 'Total Medals'})
+             labels={'x': 'Country', 'y': 'Total Medals'}, 
+             width=800,
+             height=600)
 st.plotly_chart(fig)
 
 fig = px.line(medals.groupby('Year')['Total'].sum(),
               x=medals.groupby('Year')['Total'].sum().index,
               y=medals.groupby('Year')['Total'].sum().values,
               labels={'x': 'Year', 'y': 'Total Medals'},
-              title='Evolution of total medals distributed over the years')
+              title='Evolution of total medals distributed over the years',
+              width=800,
+              height=600)
 st.plotly_chart(fig)
 
 fig = px.scatter(medals.groupby(['Year', 'Country'])['Total'].sum().reset_index(),
@@ -61,7 +65,9 @@ fig = px.scatter(medals.groupby(['Year', 'Country'])['Total'].sum().reset_index(
                  size='Total',
                  color='Country',
                  labels={'x': 'Year', 'y': 'Total Medals'},
-                 title='Evolution of total medals won by each country over the years')
+                 title='Evolution of total medals won by each country over the years',
+                 width=1200,
+                 height=600)
 st.plotly_chart(fig)
 
 medals_by_country = medals.groupby('Country').sum()[['Gold', 'Silver', 'Bronze', 'Total']]
@@ -70,7 +76,10 @@ fig = px.bar(medals_by_country, x=medals_by_country.index, y=['Gold', 'Silver', 
              color_discrete_map={'Gold': 'gold', 'Silver': 'silver', 'Bronze': 'brown'},
              title='Medals Distribution by Country',
              labels={'value': 'Number of Medals', 'variable': 'Medal Type'},
-             barmode='group')
+             barmode='group',
+             width=1200,
+             height=600)
+fig.update_xaxes(tickangle=45)
 st.plotly_chart(fig)
 
 fig = px.bar(medals_by_country.sort_values('Total', ascending=False).head(10),
@@ -79,7 +88,9 @@ fig = px.bar(medals_by_country.sort_values('Total', ascending=False).head(10),
              color_discrete_map={'Gold': 'gold', 'Silver': 'silver', 'Bronze': 'brown'},
              title='Top 10 Countries - Medals Distribution',
              labels={'value': 'Number of Medals', 'variable': 'Medal Type'},
-             barmode='group')
+             barmode='group',
+             width=1000,
+             height=600)
 fig.update_xaxes(title_text='Country')
 st.plotly_chart(fig)
 
@@ -87,7 +98,9 @@ fig = px.line(medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum
               x=medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum().index,
               y=medals[medals['Country'] == 'France'].groupby('Year')['Total'].sum().values,
               labels={'x': 'Year', 'y': 'Total Medals'},
-              title='Evolution of total medals won by France over the years')
+              title='Evolution of total medals won by France over the years',
+              width=1000,
+              height=600)
 st.plotly_chart(fig)
 
 st.markdown("#### Analyse Historique")
@@ -95,12 +108,16 @@ fig = px.scatter(medals[medals['Country'] == 'UNITED STATES'].groupby('Year')['T
               x=medals[medals['Country'] == 'UNITED STATES'].groupby('Year')['Total'].sum().index,
               y=medals[medals['Country'] == 'UNITED STATES'].groupby('Year')['Total'].sum().values,
               labels={'x': 'Year', 'y': 'Total Medals'},
-              title='Evolution of total medals won by the United States over the years')
+              title='Evolution of total medals won by the United States over the years',
+              width=1000,
+              height=600)
 st.plotly_chart(fig)
 
 fig = px.scatter(medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'].sum(),
               x=medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'].sum().index,
               y=medals[medals['Country'] == 'U.S.S.R.'].groupby('Year')['Total'].sum().values,
               labels={'x': 'Year', 'y': 'Total Medals'},
-              title='Evolution of total medals won by the U.S.S.R. over the years')
+              title='Evolution of total medals won by the U.S.S.R. over the years',
+              width=1000,
+              height=600)
 st.plotly_chart(fig)
