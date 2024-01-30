@@ -90,3 +90,17 @@ st.dataframe(og_cost_df.style.format({"Year": lambda x: "{:}".format(x)}))
 
 fig = px.bar(og_cost_df[::-1], x="Cost", y="desc", height=600, width=800)
 st.plotly_chart(fig)
+
+# participation de la diffusion des jeux olympiques à la compensation des coûts (revenu / coût) 
+# on ne peut avoir ce pourcentage que pour les années présentes dans les deux dataframes
+
+st.markdown("#### Pourcentage de la diffusion des Jeux Olympiques à la compensation des coûts")
+st.markdown("On ne peut avoir ce pourcentage que pour les années présentes dans les deux dataframes")
+
+merged = broadcast_revenue_df.merge(og_cost_df, how="inner", on=["Year", "City", "Game_type"])
+merged["percentage"] = merged["revenue"] / merged["Cost"] * 100
+merged["desc"] = (merged["Year"].astype(str) + " " + merged["City"].astype(str) + " " + merged["Game_type"].astype(str)).str.replace('nan ', "")
+st.dataframe(merged.style.format({"Year": lambda x: "{:}".format(x)}))
+
+fig = px.bar(merged[["percentage", "desc"]][::-1], x="percentage", y="desc", height=800, width=1000)
+st.plotly_chart(fig)
