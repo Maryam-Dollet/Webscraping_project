@@ -82,5 +82,11 @@ og_cost_df["desc"] = (og_cost_df["Year"].astype(str) + " " + og_cost_df["City"].
 st.markdown("#### Revenue sur la Diffusion des Jeux Olympiques")
 st.dataframe(broadcast_revenue_df.style.format({"Year": lambda x: "{:}".format(x)}))
 
+fig = px.bar(broadcast_revenue_df, x="revenue", y="desc")
+st.plotly_chart(fig)
+
 st.markdown("#### Coût des Jeux Olympiques")
 st.dataframe(og_cost_df.style.format({"Year": lambda x: "{:}".format(x)}))
+
+fig = px.bar(og_cost_df, x="Cost", y="desc")
+st.plotly_chart(fig)
