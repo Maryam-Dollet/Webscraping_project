@@ -80,27 +80,27 @@ broadcast_revenue_df["desc"] = (broadcast_revenue_df["Year"].astype(str) + " " +
 og_cost_df["desc"] = (og_cost_df["Year"].astype(str) + " " + og_cost_df["City"].astype(str) + " " + og_cost_df["Game_type"].astype(str)).str.replace('nan ', "")
 
 st.markdown("#### Revenus sur la Diffusion des Jeux Olympiques")
-st.dataframe(broadcast_revenue_df.style.format({"Year": lambda x: "{:}".format(x)}))
+# st.dataframe(broadcast_revenue_df.style.format({"Year": lambda x: "{:}".format(x)}))
 
-fig = px.bar(broadcast_revenue_df[["revenue", "desc"]][::-1], x="revenue", y="desc", height=800, width=1000)
+fig = px.bar(broadcast_revenue_df[["revenue", "desc"]][::-1], x="revenue", y="desc", text_auto='.2s', height=800, width=1000)
 st.plotly_chart(fig)
 
 st.markdown("#### Coût des Jeux Olympiques")
-st.dataframe(og_cost_df.style.format({"Year": lambda x: "{:}".format(x)}))
+# st.dataframe(og_cost_df.style.format({"Year": lambda x: "{:}".format(x)}))
 
-fig = px.bar(og_cost_df[::-1], x="Cost", y="desc", height=600, width=800)
+fig = px.bar(og_cost_df[::-1], x="Cost", y="desc", text_auto='.2s', height=600, width=800)
 st.plotly_chart(fig)
 
 # participation de la diffusion des jeux olympiques à la compensation des coûts (revenu / coût) 
 # on ne peut avoir ce pourcentage que pour les années présentes dans les deux dataframes
 
-st.markdown("#### Pourcentage de la diffusion des Jeux Olympiques à la compensation des coûts")
+st.markdown("#### Pourcentage des coûts des jeux olympiques compensés par la diffusion des jeux olympiques")
 st.markdown("On ne peut avoir ce pourcentage que pour les années présentes dans les deux dataframes")
 
 merged = broadcast_revenue_df.merge(og_cost_df, how="inner", on=["Year", "City", "Game_type"])
 merged["percentage"] = merged["revenue"] / merged["Cost"] * 100
 merged["desc"] = (merged["Year"].astype(str) + " " + merged["City"].astype(str) + " " + merged["Game_type"].astype(str)).str.replace('nan ', "")
-st.dataframe(merged.style.format({"Year": lambda x: "{:}".format(x)}))
+# st.dataframe(merged.style.format({"Year": lambda x: "{:}".format(x)}))
 
-fig = px.bar(merged[["percentage", "desc"]][::-1], x="percentage", y="desc", height=800, width=1000)
+fig = px.bar(merged[["percentage", "desc"]][::-1], x="percentage", y="desc", color="percentage", text_auto='.2s', height=800, width=1000, color_continuous_scale="purd")
 st.plotly_chart(fig)
