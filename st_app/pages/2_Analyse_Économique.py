@@ -88,5 +88,5 @@ st.plotly_chart(fig)
 st.markdown("#### Coût des Jeux Olympiques")
 st.dataframe(og_cost_df.style.format({"Year": lambda x: "{:}".format(x)}))
 
-fig = px.bar(og_cost_df, x="Cost", y="desc")
+fig = px.bar(og_cost_df[::-1], x="Cost", y="desc", height=600, width=800)
 st.plotly_chart(fig)
